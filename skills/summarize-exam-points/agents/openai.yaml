@@ -1,0 +1,5 @@
+version: 1
+agent:
+  display_name: "考点提炼助手"
+  short_description: "从教材/笔记文本提炼闭卷考试的踩分提纲、背诵口诀与答题框架"
+  default_prompt: "用 $summarize-exam-points 把用户粘贴的教材或课堂笔记纯文本，整理成闭卷考试的踩分提纲、背诵口诀和标准答题框架；只处理纯文本，不抓取网页、不解析 PDF、不生成 Anki、不使用图形界面。"
